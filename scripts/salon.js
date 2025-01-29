@@ -27,7 +27,7 @@ function accion1() {
             seg1++;
             let consumo = seg1 * 0.000001375;
             let gasto = consumo * 0.5;
-            display.textContent = `Consumo: ${consumo.toFixed(8)} kWh \nGasto:${gasto.toFixed(4)}`;
+            display.textContent = `Consumo: ${consumo.toFixed(8)} kWh \nGasto:${gasto.toFixed(8)}`;
             
         }, 1000); 
     } else {
