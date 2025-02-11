@@ -19,12 +19,36 @@ button{
 }
 section{
     background-color: white;
+    margin: 15px;
 }
 .flex{
     display: flex;
+    
 }
 img{
-    margin: 0 30px 0 0;
+    margin: 0 30px 30px 30px; 
+    height: 2.25cm;
+    width: 2,625cm;
+    
+}
+.op{
+    display: flex;
+    justify-content: center;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#total{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: white;
+  border: black solid 3px;
+  border-radius: 10px;
 }
 
 /* BOTON CHULO */ 
@@ -111,3 +135,4 @@ img{
     transform: rotateZ(90deg) rotateY(180deg) translateY(0.45em) translateX(-1.4em);
   }
 /* /BOTON CHULO */
+/*Alenjandro caberga
