@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 25px 0;
+    text-align: center;
+    background-color: cyan;
+}
+main{
+    text-align: center;
+}
+button{
+    padding: 1cm 0;
+    margin: 20px;
+    width: 5cm;
+}
+.cocina{
+    background-color: grey;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.cocina:hover{
+    background-color: lightgrey;
+    transform: scale(1.05,1.05);
+}
+.salon{
+    background-color: coral;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.salon:hover{
+    background-color: lightcoral;
+    transform: scale(1.05,1.05);
+}
+.baño{
+    background-color: darkcyan;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.baño:hover{
+    background-color: cyan;
+    transform: scale(1.05,1.05);
+}
