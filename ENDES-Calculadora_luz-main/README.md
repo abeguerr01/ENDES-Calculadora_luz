@@ -1,2 +1,0 @@
-# ENDES-Calculadora_luz
- 
