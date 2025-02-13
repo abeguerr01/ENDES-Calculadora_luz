@@ -11,7 +11,6 @@ Puedes encender más de un dispositivo a la vez, el gasto total de todos los dis
 ___________________________
 
 Funcionamiento del código
-___________________________
 
 El código se compone 4 páginas web con sus CSS y las imágenes requeridas y 3 documentos JavaScript que se componen de 5 funciones cada uno, una de inicio para establecer los botones, 3 funciones que calculan el consumo y el coste de cada dispositivo y por último otra función que suma el consumo y coste total de los dispositivos.
 ___________________________
