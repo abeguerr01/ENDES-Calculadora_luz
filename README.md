@@ -1,7 +1,7 @@
 # ENDES-Calculadora_luz
 Calculadora de gasto de la luz
+_________________________
 Guía de uso
-___________________________
 
 Para usar el programa debes abrir el documento index.html y seleccionar en que parte de la casa quieres calcular la luz consumida.
 
