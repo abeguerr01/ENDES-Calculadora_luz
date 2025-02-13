@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0 0 20px 0 ;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('../Imagenes/fondoS.webp');
+  background-image: url('../Imagenes/fondoB.png');
 }
 
 header {
@@ -43,15 +43,9 @@ nav ul a {
 nav ul a:hover {
   color: goldenrod;
 }
-
 main{
   text-align: center;
 }
-
-h2{
-  color: white;
-}
-
 button{
   padding: 1cm 0;
   margin: 20px;
@@ -60,6 +54,7 @@ button{
 
 section{
   background-color: white;
+  box-shadow: black;
   margin: 15px;
   border-radius: 30px;
   width: 41%;

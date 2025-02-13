@@ -1,62 +1,71 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="../css/salon_style.css" />
+        <link rel="stylesheet" href="../css/cocina_style.css" />
         <title>Contador luz</title>
     </head>
     <body>
-        <script src="cocina.js"></script>
+        <script src="../scripts/cocina.js"></script>
         <header>
             <h1>CONTADOR GASTO DE LA LUZ</h1>
         </header>
+        <nav>
+            <ul>
+                <a href="../index.html"><li>INICIO</li><a>
+                <a href="Salon.html"><li>SALON</li></a>
+                <a href="#"><li>COCINA</li></a>
+                <a href="Baño.html"><li>BAÑO</li></a>
+            </ul>
+        </nav>
         <main>
             <h2>COCINA</h2>
             <article>
+                <div id="total">Consumo Total: 0.00000000 kWh Gasto Total:0.00000000</div>
                 <section>
                     <h3>Horno</h3>
                     <div class="flex">
-                        <img src="../Imagenes/horno.jpg" alt="Horno" />
-                        <div class="ope">
+                        <img src="../Imagenes/horno.jpg" alt="Tele" />
+                        <div class="op">
                             <!-- BOTON-CHULO --> 
                             <label class="switch">
-                                <input type="checkbox" class="chk">
+                                <input type="checkbox" class="chk" id="bt1">
                                 <span class="slider"></span>
                             </label>
                             <!-- /BOTON-CHULO -->
-                            <div id ="horno" class="flex"></div>
+                            <div id ="tele" class="flex2">Consumo: 0.00000000 kWh Gasto:0.00000000</div>
+                        </div>
                     </div>
                 </section>
-
                 
                 <section>
                     <h3>Vitroceramica</h3>
                     <div class="flex">
-                        <img src="../Imagenes/vitro.jpg" alt="Vitroceramica" />
-                        <div class="ope">
+                        <img src="../Imagenes/vitro.jpg" alt="Lampara" />
+                        <div class="op">
                             <!-- BOTON-CHULO --> 
                             <label class="switch">
-                                <input type="checkbox" class="chk">
+                                <input type="checkbox" class="chk" id = "bt2">
                                 <span class="slider"></span>
                             </label>
                             <!-- /BOTON-CHULO -->
-                            <div id ="vitroceramica" class="flex"></div>
+                            <div id ="luz" class="flex2">Consumo: 0.00000000 kWh Gasto:0.00000000</div>
                     </div>
                 </section>
+
                 <section>
                     <h3>Microondas</h3>
                     <div class="flex">
-                        <img src="../Imagenes/microondas.jpg" alt="Microondas" />
-                        <div class="ope">
+                        <img src="../Imagenes/microondas.jpg" alt="Radiadores" />
+                        <div class="op">
                             <!-- BOTON-CHULO --> 
                             <label class="switch">
-                                <input type="checkbox" class="chk">
+                                <input type="checkbox" class="chk" id="bt3">
                                 <span class="slider"></span>
                             </label>
                             <!-- /BOTON-CHULO -->
-                            <div id ="microondas" class="flex"></div>
+                            <div id ="radiador" class="flex2">Consumo: 0.00000000 kWh Gasto:0.00000000</div>
                 </section>
             </article>
-            
         </main>
     </body>
 </html>

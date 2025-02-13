@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0 0 20px 0 ;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('../Imagenes/fondoS.webp');
+  background-image: url('../Imagenes/fondoC.jpg');
 }
 
 header {
@@ -47,11 +47,6 @@ nav ul a:hover {
 main{
   text-align: center;
 }
-
-h2{
-  color: white;
-}
-
 button{
   padding: 1cm 0;
   margin: 20px;

@@ -1,62 +1,71 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="../css/salon_style.css" />
+        <link rel="stylesheet" href="../css/baño_style.css" />
         <title>Contador luz</title>
     </head>
     <body>
-        <script src="salon.js"></script>
+        <script src="../scripts/Baño.js"></script>
         <header>
             <h1>CONTADOR GASTO DE LA LUZ</h1>
         </header>
+        <nav>
+            <ul>
+                <a href="../index.html"><li>INICIO</li><a>
+                <a href="Salon.html"><li>SALON</li></a>
+                <a href="Cocina.html"><li>COCINA</li></a>
+                <a href="#"><li>BAÑO</li></a>
+            </ul>
+        </nav>
         <main>
-            <h2>BAÑO</h2>
+            <h2>COCINA</h2>
             <article>
+                <div id="total">Consumo Total: 0.00000000 kWh Gasto Total:0.00000000</div>
                 <section>
-                    <h3>Maquinilla</h3>
+                    <h3>Maquinilla de afeitar</h3>
                     <div class="flex">
                         <img src="../Imagenes/maquinilla.jpg" alt="Tele" />
-                        <div class="ope">
+                        <div class="op">
                             <!-- BOTON-CHULO --> 
                             <label class="switch">
-                                <input type="checkbox" class="chk">
+                                <input type="checkbox" class="chk" id="bt1">
                                 <span class="slider"></span>
                             </label>
                             <!-- /BOTON-CHULO -->
-                            <div id ="tele" class="flex"></div>
+                            <div id ="tele" class="flex2">Consumo: 0.00000000 kWh Gasto:0.00000000</div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                    <h3>Planca</h3>
+                    <div class="flex">
+                        <img src="../Imagenes/plancha.jpg" alt="Lampara" />
+                        <div class="op">
+                            <!-- BOTON-CHULO --> 
+                            <label class="switch">
+                                <input type="checkbox" class="chk" id = "bt2">
+                                <span class="slider"></span>
+                            </label>
+                            <!-- /BOTON-CHULO -->
+                            <div id ="luz" class="flex2">Consumo: 0.00000000 kWh Gasto:0.00000000</div>
                     </div>
                 </section>
 
-                
-                <section>
-                    <h3>Plancha</h3>
-                    <div class="flex">
-                        <img src="../Imagenes/plancha.jpg" alt="Lampara" />
-                        <div class="ope">
-                            <!-- BOTON-CHULO --> 
-                            <label class="switch">
-                                <input type="checkbox" class="chk">
-                                <span class="slider"></span>
-                            </label>
-                            <!-- /BOTON-CHULO -->
-                            <div id ="luz" class="flex"></div>
-                    </div>
-                </section>
                 <section>
                     <h3>Secador</h3>
                     <div class="flex">
                         <img src="../Imagenes/secador.jpg" alt="Radiadores" />
-                        <div class="ope">
+                        <div class="op">
                             <!-- BOTON-CHULO --> 
                             <label class="switch">
-                                <input type="checkbox" class="chk">
+                                <input type="checkbox" class="chk" id="bt3">
                                 <span class="slider"></span>
                             </label>
                             <!-- /BOTON-CHULO -->
-                            <div id ="radiador" class="flex"></div>
+                            <div id ="radiador" class="flex2">Consumo: 0.00000000 kWh Gasto:0.00000000</div>
                 </section>
             </article>
-            
         </main>
     </body>
 </html>
