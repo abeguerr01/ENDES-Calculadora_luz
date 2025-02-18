@@ -30,7 +30,7 @@ function accion1() {
             seg1++;
             consumo1 = seg1 * 0.000001375;
             let gasto = consumo1 * 0.5;
-            display.textContent = `Consumo: ${consumo1.toFixed(8)} kWh Gasto: ${gasto.toFixed(8)}`;
+            display.textContent = `Consumo: ${consumo1.toFixed(8)} kWh Gasto: ${gasto.toFixed(8)}€`;
             calcularTotal(); // Llamar a calcularTotal
         }, 1000); 
     } else {
@@ -51,7 +51,7 @@ function accion2() {
             seg2++;
             consumo2 = seg2 * 0.000011111111;
             let gasto = consumo2 * 0.5;
-            display.textContent = `Consumo: ${consumo2.toFixed(8)} kWh Gasto: ${gasto.toFixed(8)}`;
+            display.textContent = `Consumo: ${consumo2.toFixed(8)} kWh Gasto: ${gasto.toFixed(8)}€`;
             calcularTotal(); // Llamar a calcularTotal
         }, 1000);
     } else {
@@ -72,7 +72,7 @@ function accion3() {
             seg3++;
             consumo3 = seg3 * 0.00041666666;
             let gasto = consumo3 * 0.5;
-            display.textContent = `Consumo: ${consumo3.toFixed(8)} kWh Gasto: ${gasto.toFixed(8)}`;
+            display.textContent = `Consumo: ${consumo3.toFixed(8)} kWh Gasto: ${gasto.toFixed(8)}€`;
             calcularTotal(); // Llamar a calcularTotal
         }, 1000); 
     } else {
@@ -85,6 +85,6 @@ function accion3() {
 
 function calcularTotal() {
     const totalConsumo = consumo1 + consumo2 + consumo3;
-    const totalGasto = totalConsumo * 0.5; // Suponiendo que el gasto es el mismo factor
+    const totalGasto = totalConsumo * 0.5;
     document.getElementById("total").textContent = `Consumo Total: ${totalConsumo.toFixed(8)} kWh Gasto Total: ${totalGasto.toFixed(8)}`;
 }
